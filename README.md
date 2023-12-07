@@ -1,2 +1,8 @@
-# limo_pro_doc
-Limo pro user manual
+# LIMO PRO 产品使用手册
+中文 | EN
+
+Version: 1.0.0
+
+| 版本  | 更新信息          | 责任人          |
+| ----- | ----------------- | --------------- |
+| 1.0.0 | [1]、第一版本开放 | Agilex ROS TEAM |

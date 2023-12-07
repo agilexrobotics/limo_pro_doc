@@ -2529,68 +2529,6 @@ Limo有两个版本的nano，分别为SD卡版本和emmc版本，两个版本的
 
 ![](LIMO_image/balena_6.png)
 
-#### 5.2 emmc版本烧录方式
-
-注意：该烧录方式只能在Linux系统中运行，需要用到一根micro USB数据线和一根双母头的杜邦线或者跳帽
-
-##### 5.2.1 下载安装NVIDIA SDKManager
-
-​	在装有Linux系统的电脑中下载安装NVIDIA SDKManager，下载链接：https://developer.nvidia.com/nvidia-sdk-manager，下载.deb格式的安装包即可。
-
-​	下载完成之后双击打开文件安装NVIDIA SDKManager或者通过命令安装：
-
-​	打开终端，cd切换到NVIDIA SDKManager安装包所在的文件夹，输入以下命令进行安装：
-
-```
-sudo dpkg -i sdkmanager_1.7.3-9053_amd64.deb 
-```
-
-##### 5.2.2 下载需要烧录的镜像
-
-假设文件放置在~/downloads文件夹中
-
-​	使用百度云盘下载镜像与烧录环境，下载链接为：链接: https://pan.baidu.com/s/16izE2rgS0d11Qg3POAfJew 提取码: f6ju 
-
-​	把下载好的文件解压到~/download目录中
-
-注意：下载的文件需要放置在英文文件中，文件路径不能出现中文
-
-##### 5.2.3 烧录步骤：
-
-1、连接硬件设备
-
-​	首先，需要把Limo上的nano拆卸下来，拆的过程中需要注意不要损坏零件。
-
-​	拆卸完成之后，用杜邦线或者跳帽把nano 背面的GND和FC REC短接，进入刷机模式
-
-<div align=center> 	<img src="LIMO_image/emmc_v1.png" width=""> </div>
-
-​	把准备好的micro USB数据线的micro端连接到nano的micro端口上，USB一端连接到Linux电脑到上，最后给nano通上电源。
-
-<div align=center> 	<img src="LIMO_image/emmc_2.png" width="800"> </div>
-
-1、进入~/download/limo-emmc/Linux_for_Tegra目录
-
-​	打开终端，在终端在输入命令：
-
-```
-cd ~/download/limo-emmc/Linux_for_Tegra
-```
-
-2、在终端中继续输入烧录命令：
-
-```
-sudo ./flash.sh -r jetson-nano-emmc mmcblk0p1
-```
-
-![](LIMO_image/emmc_3.png)
-
-当system.img开始写入时，系统开始烧录了。
-
-![](LIMO_image/emmc_4.png)
-
-当出现successful时，系统就烧录完成了。
-
 ### 附录 6、固件升级
 
 固件升级的软件在limo的主目录下，文件名称为LimonTest_Nano，升级所需要的固件在我司官方GitHub中，链接为：https://github.com/agilexrobotics/limo-doc
