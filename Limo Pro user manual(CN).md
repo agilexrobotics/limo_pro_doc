@@ -2506,7 +2506,7 @@ Limo有两个版本的nano，分别为SD卡版本和emmc版本，两个版本的
 
 ##### 5.2 下载需要烧录的镜像
 
-​	这里以我司提供的官方镜像为例，使用百度云盘下载镜像，下载链接为： https://pan.baidu.com/s/1baec7KVw6A-KT7V9xHGZyA 提取码: pkqv 
+​	这里以我司提供的官方镜像为例，使用百度云盘下载镜像，下载链接为：https://pan.baidu.com/s/1-zu6W9URFPwzxGgB9bOQlw 提取码: k2t1 
 
 ##### 5.3 软件使用说明
 
