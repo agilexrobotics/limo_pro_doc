@@ -1666,6 +1666,18 @@ rosrun voice voice_ctr_node.py
 
 The Mycobot robotic arm has two control modes. Firstly, it can be controlled by directly calling the API interface and assigning six joint angles to the robotic arm. This allows users to specify the motion trajectory and posture of the robotic arm, enabling precise control of its movements. Secondly, Mycobot also supports control using MoveIt. Users can set a target point, and MoveIt will calculate the six joint angles and send them to the robotic arm. This mode is more flexible and can achieve more complex motion planning and control through the setting of target points, making it adaptable to different work scenarios and requirements. Whether it is by directly calling the API interface or using MoveIt, Mycobot can provide efficient and accurate robotic arm control to meet user needs in different scenarios.
 
+Start the robotic arm. If you see the interface below, please configure the robotic arm communication. Choose'Transponder', click 'ok'.
+
+![通讯模式1](E:/limo_pro_doc-master/limo_pro_doc-master/LIMO_image/通讯模式1.png)
+
+Then choose 'USB UART' and click ok.
+
+![通讯模式2](E:/limo_pro_doc-master/limo_pro_doc-master/LIMO_image/通讯模式2.png)
+
+Finally, 'Atom: ok' shows successful configuration.
+
+![通讯模式3](./LIMO_image/通讯模式3.png)
+
 ### 10.1 Use the slider to control the simulated robotic arm (optional)
 
 > Note: Make sure the robotic arm is connected before starting
@@ -1676,7 +1688,7 @@ Start the slider control node. Open a new terminal, and enter the command in the
 roslaunch mycobot_280 slider_control.launch port:=/dev/ttyACM0 baud:=115200
 ```
 
-![](./大象机械臂文档/myCobot280_image/slider.png)
+![](./LIMO_image/slider.png)
 
 Control the movement of the robotic arm by dragging the slider.
 
@@ -1716,7 +1728,7 @@ rosrun mycobot_280 follow_display.py _port:=/dev/ttyACM0 _baud:=115200
 
 After successful startup, the robotic arm will be unlocked. At this time, the robotic arm can be moved by hand, and the model in rviz will also move accordingly.
 
-![](./大象机械臂文档/myCobot280_image/follow.png)
+![](./LIMO_image/follow.png)
 
 ### 10.4 GUI control of robotic arm (optional)
 
@@ -1730,7 +1742,7 @@ roslaunch mycobot_280 simple_gui.launch
 
 After successful launching, the angle information or position information of each joint can be entered in the GUI interface.
 
-![](./大象机械臂文档/myCobot280_image/gui.png)
+![](./LIMO_image/gui.png)
 
 ### 10.5 Keyboard control of robotic arm (optional)
 
@@ -1750,7 +1762,7 @@ rosrun mycobot_280 teleop_keyboard.py
 
 After successful startup, use the keys w a s d to control the movement of the robotic arm
 
-![](./大象机械臂文档/myCobot280_image/teleop.png)
+![](./LIMO_image/teleop.png)
 
 ### 10.6 Use moveit to control the robotic arm (optional)
 
@@ -1770,7 +1782,7 @@ Start the real robotic arm synchronization node:
 rosrun mycobot_280_moveit sync_plan.py _port:=/dev/ttyACM0 _baud:=115200
 ```
 
-![](./大象机械臂文档/myCobot280_image/moveit.png)
+![](./LIMO_image/moveit.png)
 
 ### 10.7 Mobile grabbing(optional)
 
@@ -1790,17 +1802,17 @@ roslaunch limo_bringup limo_navigation_diff.launch
 
 Record first position.
 
-![](./大象机械臂文档/myCobot280_image/cobot_1_1.png)
+![](./LIMO_image/cobot_1_1.png)
 
 Drive Limo to the capture location and record the second location
 
-![](./大象机械臂文档/myCobot280_image/cobot_2_2.png)
+![](./LIMO_image/cobot_2_2.png)
 
 Fill in the data in /home/agilex/agilex_ws/src/set_nav_point/more_task_node.py as shown in the figure
 
-![](./大象机械臂文档/myCobot280_image/cobot_3.png)
+![](./LIMO_image/cobot_3.png)
 
-![](./大象机械臂文档/myCobot280_image/cobot_4.jpg)
+![](./LIMO_image/cobot_4.jpg)
 
 （3）Start the mobile grabbing function node. Open a new terminal, and enter the command in the terminal:
 
