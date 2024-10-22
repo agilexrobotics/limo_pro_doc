@@ -1254,7 +1254,7 @@ ros2 launch limo_bringup limo_rtab_slam.launch.py
 
 ![](LIMO_ROS2_image/rtab_map（复件）.png)
 
-7.4 rtabmap算法导航
+### 7.4 rtabmap算法导航
 
 > 注：在运行命令之前，请确保其他终端中的程序已经终止，终止命令为：Ctrl+c
 >
@@ -1274,13 +1274,13 @@ ros2 launch orbbec_camera dabai.launch.py
 （3）启动rtabmap算法的建图模式，在终端中输入命令：
 
 ```
-ros2 launch limo_bringup limo_rtab_rgbd.launch.py localization:=true
+ros2 launch limo_bringup limo_rtab_slam.launch.py localization:=true
 ```
 
 （4）启动导航算法，在终端中输入命令：
 
 ```
-ros2 launch limo_bringup limo_rtab_nav2.launch.py 
+ros2 launch limo_bringup limo_rtab_nav2_diff.launch.py 
 ```
 
 ![](./LIMO_ROS2_image/rtab_nav2_1.png)

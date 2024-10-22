@@ -1563,7 +1563,7 @@ roslaunch limo_visions follow.launch
 启动二维码标签识别功能，在终端中输入命令：
 
 ```
-roslaunch aruco_ros single.launch
+roslaunch detect_ros agx_ar_pose.launch
 ```
 
 ![](./LIMO_image/lifter.png)
