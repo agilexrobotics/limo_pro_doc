@@ -1606,6 +1606,30 @@ roslaunch limo_deeplearning traffic_detect.launch
 
 ![](LIMO_image/traffic_light.png)
 
+### 8.7 Ultralytics YOLO
+
+#### 8.7.1 功能介绍
+
+使用 Ultralytics YOLO 进行实时对象检测和分割
+
+#### 8.7.2 运行功能
+
+> 注：在运行命令之前，请确保其他终端中的程序已经终止，终止命令为：Ctrl+c
+
+启动摄像头
+
+```
+roslaunch astra_camera dabai_u3.launch 
+```
+
+启动ultralytics_ros识别节点
+
+```bash
+roslaunch ultralytics_ros tracker.launch debug:=true
+```
+
+![](LIMO_image/yolo.png)
+
 ## 九、语音模块
 
 ### 9.1 语音转文字
