@@ -1050,6 +1050,13 @@ Cartographer is a set of SLAM algorithms based on image optimization launched by
 
 > **Note:** The speed of limo should be slow  in the process of mapping. If the speed is too fast, the effect of mapping will be affected.
 
+First, source the environment viriable.
+
+```
+cd agilex_ws/
+source install_isolated/local_setup.bash
+```
+
 Launch a new terminal and enter the command:
 
 ```
@@ -1564,7 +1571,7 @@ If startup fails, try the following command:
 Start the QR code label recognition function and enter the command in the terminal:
 
 ```
-roslaunch aruco_ros single.launch
+roslaunch detect_ros agx_ar_pose.launch
 ```
 
 ![](./LIMO_image/lifter.png)
