@@ -1328,11 +1328,11 @@ ros2 launch limo_bringup limo_rtab_slam.launch.py localization:=true
 ros2 launch limo_bringup limo_rtab_nav2_diff.launch.py 
 ```
 
-![rtab_nav2_1](LIMO_ROS2_image\rtab_nav2_1.png)
+![rtab_nav2_1](./LIMO_ROS2_image/rtab_nav2_1.png)
 
 （5）Because visual positioning is used, there is no need for calibration when using rtabmap navigation. Users can directly start setting the target points and proceed with navigation. The operational steps are shown in the figure.
 
-![](LIMO_ROS2_image\rtab_nav2_2.png)
+![](./LIMO_ROS2_image/rtab_nav2_2.png)
 
 A green path will be generated in the map. Switch the handle to command mode, and Limo will automatically navigate to the goal point.
 
