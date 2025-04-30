@@ -1100,7 +1100,7 @@ ros2 launch limo_bringup limo_start.launch.py
 gedit /home/agilex/limo_ros2_ws/src/limo_ros2/limo_bringup/launch/limo_nav2.launch.py
 ```
 
-![map11](LIMO_ROS2_image\map11.png)
+![map11](LIMO_ROS2_image/map11.png)
 
 After editing it, enter to /home/agilex/limo_ros2_ws directory and compile the code.
 
@@ -1126,29 +1126,29 @@ ros2 launch limo_bringup limo_nav2_ackmann.launch.py
 
 After launching successfully, the rviz will be opened.
 
-![navi1](LIMO_ROS2_image\navi1.png)
+![navi1](./LIMO_ROS2_image/navi1.png)
 
 （4）After launching the navigation, it may be observed that the laser-scanned shape does not align with the map, requiring manual correction. To rectify this, adjust the actual position of the chassis in the scene displayed on the rviz map. Use the rviz tools to designate an approximate position for the vehicle, providing it with a preliminary estimation. Subsequently, use the handle tool to remotely rotate the vehicle until automatic alignment is achieved. Once the laser shape overlaps with the scene shape on the map, the correction process is concluded. The operational steps are outlined as follows:
 
-![navi2](LIMO_ROS2_image\navi2.png)
+![navi2](./LIMO_ROS2_image/navi2.png)
 
 The correction is completed:
 
-![](./LIMO_image/navi3.png![navi3](LIMO_ROS2_image\navi3.png)
+![](./LIMO_image/navi3.png![navi3](./LIMO_ROS2_image/navi3.png)
 
 （4）Set the navigation goal point through '2D Nav Goal'.
 
-![](./LIMO_image/limo_tu_03.png![navi4](LIMO_ROS2_image\navi4.png) purple path will be generated on the map. Switch the handle to command mode, and Limo will automatically navigate to the goal point.
+![](./LIMO_image/limo_tu_03.png![navi4](./LIMO_ROS2_image/navi4.png) purple path will be generated on the map. Switch the handle to command mode, and Limo will automatically navigate to the goal point.
 
 （5）Multi-waypoints navigation
 
 Click the button to enter the multiple waypoints navigation mode.
 
-!![nav2_1_1](LIMO_ROS2_image\nav2_1_1.png)(./LIMO_image/navi_5.png)
+!![nav2_1_1](./LIMO_ROS2_image/nav2_1_1.png)(./LIMO_image/navi_5.png)
 
 Click Nav2 Goal. Set the waypoints. Then click the circled button to navigate.
 
-![nav2_3_1](LIMO_ROS2_image\nav2_3_1.png)
+![nav2_3_1](./LIMO_ROS2_image/nav2_3_1.png)
 
 ##  7 Depth Camera + LiDAR Mapping
 
