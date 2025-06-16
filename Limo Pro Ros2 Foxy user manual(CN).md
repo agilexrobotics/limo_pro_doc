@@ -1424,6 +1424,8 @@ Mycobot机械臂具有两种控制方式。首先，可以直接调用API接口�
 
 > 注：启动之前确保已经连接好机械臂
 
+<span style="background-color: yellow;">注：如果使用过程中出现错误，可以参考这个[链接](https://github.com/smalleha/mycobot_ros2_agx.git)，更新代码</span>
+
 启动滑块控制节点，打开一个新终端，在终端中输入命令：
 
 ```bash

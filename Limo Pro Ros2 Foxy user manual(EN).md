@@ -1477,11 +1477,11 @@ The Mycobot robotic arm has two control modes. Firstly, it can be controlled by 
 
 Start the robotic arm. If you see the interface below, please configure the robotic arm communication. Choose'Transponder', click 'ok'.
 
-![通讯模式1](E:/limo_pro_doc-master/limo_pro_doc-master/LIMO_image/通讯模式1.png)
+![通讯模式1](./LIMO_image/通讯模式1.png)
 
 Then choose 'USB UART' and click ok.
 
-![通讯模式2](E:/limo_pro_doc-master/limo_pro_doc-master/LIMO_image/通讯模式2.png)
+![通讯模式2](./LIMO_image/通讯模式2.png)
 
 Finally, 'Atom: ok' shows successful configuration.
 
@@ -1490,6 +1490,8 @@ Finally, 'Atom: ok' shows successful configuration.
 ### 10.1 Use the slider to control the simulated robotic arm (optional)
 
 > Note: Make sure the robotic arm is connected before starting
+
+<span style="background-color: yellow;">**Note:** If any errors occur during use, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
 
 Start the slider control node. Open a new terminal, and enter the command in the terminal:
 
