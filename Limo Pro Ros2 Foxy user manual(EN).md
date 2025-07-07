@@ -1491,7 +1491,13 @@ Then, you can run
 ```
 ls /dev/ttyACM*
 ```
-to see if there is an ACM0 (usually) shows in the terminal.
+to see if there is an ACM0 (usually) shown in the terminal.
+
+Then, run 
+```
+sudo chmod 777 /dev/ttyACM*
+```
+to grant the permissions.
 
 <span style="background-color: yellow;">**Note:** If any errors occur during the following steps, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
 
