@@ -1490,6 +1490,11 @@ Finally, 'Atom: ok' shows successful configuration.
 ### 10.1 Use the slider to control the simulated robotic arm (optional)
 
 > Note: Make sure the robotic arm is connected before starting
+You can run
+```
+ls /dev/ttyACM*
+```
+to see if there is an ACM0 (usually) shows in the terminal.
 
 <span style="background-color: yellow;">**Note:** If any errors occur during use, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
 
@@ -1512,6 +1517,11 @@ Start the model following node:
 ```
 ros2 launch mycobot_280 mycobot_follow.launch.py 
 ```
+If above command fails, plese run the following command to set port name and baud rate:
+
+```
+ ros2 launch mycobot_280 mycobot_follow.launch.py port:=/dev/ttyACM0 baud:=115200
+```
 
 After successful startup, the robotic arm will be unlocked. At this time, the robotic arm can be moved by hand, and the model in rviz will also move accordingly.
 
@@ -1527,6 +1537,11 @@ Use a simple GUI interface to control the movement of the robotic arm. Start a n
 ros2 launch mycobot_280 simple_gui.launch.py
 ```
 
+If above command fails, plese run the following command to set port name and baud rate:
+
+```
+ros2 launch mycobot_280 simple_gui.launch.py port:=/dev/ttyACM0 baud:=115200
+```
 After successful launching, the angle information or position information of each joint can be entered in the GUI interface.
 
 ![](./LIMO_image_EN/gui.png)
