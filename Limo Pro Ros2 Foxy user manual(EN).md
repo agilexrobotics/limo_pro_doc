@@ -1487,16 +1487,18 @@ Finally, 'Atom: ok' shows successful configuration.
 
 ![通讯模式3](./LIMO_image/通讯模式3.png)
 
-### 10.1 Use the slider to control the simulated robotic arm (optional)
-
-> Note: Make sure the robotic arm is connected before starting
-You can run
+Then, you can run
 ```
 ls /dev/ttyACM*
 ```
 to see if there is an ACM0 (usually) shows in the terminal.
 
-<span style="background-color: yellow;">**Note:** If any errors occur during use, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
+<span style="background-color: yellow;">**Note:** If any errors occur during the following steps, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
+
+
+### 10.1 Use the slider to control the simulated robotic arm (optional)
+
+> Note: Make sure the robotic arm is connected before starting
 
 Start the slider control node. Open a new terminal, and enter the command in the terminal:
 
