@@ -1499,7 +1499,7 @@ Start the slider control node. Open a new terminal, and enter the command in the
 ros2 launch mycobot_280 slider_control.launch.py port:=/dev/ttyACM0 baud:=115200
 ```
 
-![](./LIMO_image/slider.png)
+![](./LIMO_image_EN/slider.png)
 
 Control the movement of the robotic arm by dragging the slider.
 
@@ -1515,7 +1515,7 @@ ros2 launch mycobot_280 mycobot_follow.launch.py
 
 After successful startup, the robotic arm will be unlocked. At this time, the robotic arm can be moved by hand, and the model in rviz will also move accordingly.
 
-![](./LIMO_image/follow.png)
+![](./LIMO_image_EN/follow.png)
 
 ### 10.3 GUI control of robotic arm (optional)
 
@@ -1529,7 +1529,7 @@ ros2 launch mycobot_280 simple_gui.launch.py
 
 After successful launching, the angle information or position information of each joint can be entered in the GUI interface.
 
-![](./LIMO_image/gui.png)
+![](./LIMO_image_EN/gui.png)
 
 ## Appendix
 
