@@ -2524,33 +2524,7 @@ The TF relationship diagram after successful launch is shown in the figure below
 
 ### Appendix 5 System Burning
 
-#### 5.1 Download and install balenaetcher
-
-Download and install balenaetcher on a PC; download link: https://www.balena.io/etcher/; download different versions according to the operating system and architecture of the PC.
-
-#### 5.2 Download the image to be burned
-
-Here is an example of the official image provided by our company. Use Baidu cloud disk to download the image, and the download link is:https://drive.google.com/file/d/16uIAMiD4ziUZyTxlAcFLeDGFdeaSvzlU/view?usp=sharing
-
-#### 5.3 Instructions on software usage
-
-The instructions on software usage in the Linux system are taken as an example.
-
-1. Open the software and select the image to be burned
-
-![](LIMO_image/balena_1.png)
-
-![](LIMO_image/balena_2.png)
-
-
-
-2. Select the SD card that needs to be burned
-
-![](LIMO_image/balena_4.png)
-
-3. Click Flash to start burning
-
-![](LIMO_image/balena_6.png)
+Limo Pro's image is based on SSD. Please contact the AgileX support team if you are going to flash the system.
 
 ### Appendix 6  Firmware Upgrade
 
