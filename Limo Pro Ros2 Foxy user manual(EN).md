@@ -1519,7 +1519,7 @@ Start the model following node:
 ```
 ros2 launch mycobot_280 mycobot_follow.launch.py 
 ```
-If above command fails, plese run the following command to set port name and baud rate:
+If the above command fails, please run the following command to set the port name and baud rate:
 
 ```
  ros2 launch mycobot_280 mycobot_follow.launch.py port:=/dev/ttyACM0 baud:=115200
@@ -1539,7 +1539,7 @@ Use a simple GUI interface to control the movement of the robotic arm. Start a n
 ros2 launch mycobot_280 simple_gui.launch.py
 ```
 
-If above command fails, plese run the following command to set port name and baud rate:
+If the above command fails, please run the following command to set the port name and baud rate:
 
 ```
 ros2 launch mycobot_280 simple_gui.launch.py port:=/dev/ttyACM0 baud:=115200
