@@ -1710,12 +1710,14 @@ Start the slider control node. Open a new terminal, and enter the command in the
 ```
 roslaunch mycobot_280 slider_control.launch
 ```
+Then you can move the slider to control the simulated robotic arm first.
 
-Start the real robotic arm.
+And then, after the simulated robotic arm moves, start the real robotic arm.
 
 ```bash
 rosrun mycobot_280 slider_control.py _port:=/dev/ttyACM0 _baud:=115200
 ```
+Finally, the real robotic arm will also move. 
 
 ### 10.3 The model following the real robotic arm (optional)
 
