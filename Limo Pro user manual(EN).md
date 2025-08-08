@@ -318,13 +318,9 @@ The two lights on the vehicle are RGB LEDs, using 5 high-contrast colors as indi
 
 （3）Doors on both sides can be opened. One TYPE-C port and two USB2.0 ports are reserved for easy debugging;
 
-<img src="LIMO_image/USB-HUB.svg" style="zoom:60%;" />
+<img src="LIMO_image/USB-HUB.svg" style="zoom:60%;" /> 
 
-（4）The battery can be removed and replaced;
-
-<img src="LIMO_image/换电池.svg" style="zoom:60%;" /> 
-
-（5）Abundant expansion holes are reserved：
+（4）Abundant expansion holes are reserved：
 
 Eight M3 screw holes and two 3.2mm wide notches are reserved on the roof;
 
@@ -338,7 +334,7 @@ Four M3 screw holes are reserved at the front and rear of the underbody；
 
 <img src="LIMO_image/安装孔尺寸-底视.svg" width="800"  height = "600" /> 
 
-（6）Rich interactive experience:
+（5）Rich interactive experience:
 
 Camera, LiDAR, voice module, dual speakers and front display provide rich interactive experience.
 
@@ -1675,11 +1671,14 @@ The Mycobot robotic arm has two control modes. Firstly, it can be controlled by 
 
 Start the robotic arm. If you see the interface below, please configure the robotic arm communication. Choose'Transponder', click 'ok'.
 
-![通讯模式1](E:/limo_pro_doc-master/limo_pro_doc-master/LIMO_image/通讯模式1.png)
+![通讯模式2](./LIMO_image/通讯模式1.png)
+
 
 Then choose 'USB UART' and click ok.
 
-![通讯模式2](E:/limo_pro_doc-master/limo_pro_doc-master/LIMO_image/通讯模式2.png)
+
+![通讯模式2](./LIMO_image/通讯模式2.png)
+
 
 Finally, 'Atom: ok' shows successful configuration.
 

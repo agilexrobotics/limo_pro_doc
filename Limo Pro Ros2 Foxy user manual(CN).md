@@ -315,13 +315,9 @@ MyCobot 可根据用户的需求进行二次开发，实现用户个性化定制
 
 （3）两侧车门可展开，预留一个TYPE-C口和两个USB2.0口，方便调试；
 
-<img src="LIMO_image/USB-HUB.svg" style="zoom:60%;" />
+<img src="LIMO_image/USB-HUB.svg" style="zoom:60%;" /> 
 
-（4）电池可拆换；
-
-<img src="LIMO_image/换电池.svg" style="zoom:60%;" /> 
-
-（5）预留丰富的拓展孔位：
+（4）预留丰富的拓展孔位：
 
 车顶预留8个M3螺丝孔位，以及两条3.2mm宽的槽口；
 
@@ -335,7 +331,7 @@ MyCobot 可根据用户的需求进行二次开发，实现用户个性化定制
 
 <img src="LIMO_image/安装孔尺寸-底视.svg" width="800"  height = "600" /> 
 
-（6）丰富的交互体验：
+（5）丰富的交互体验：
 
 摄像头、激光雷达、语音模块、双扬声器配合前显示器可提供丰富的交互体验。
 
