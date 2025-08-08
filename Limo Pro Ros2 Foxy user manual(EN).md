@@ -1483,11 +1483,24 @@ Finally, 'Atom: ok' shows successful configuration.
 
 ![通讯模式3](./LIMO_image/通讯模式3.png)
 
+Then, you can run
+```
+ls /dev/ttyACM*
+```
+to see if there is an ACM0 (usually) shown in the terminal.
+
+Then, run 
+```
+sudo chmod 777 /dev/ttyACM*
+```
+to grant the permissions.
+
+<span style="background-color: yellow;">**Note:** If any errors occur during the following steps, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
+
+
 ### 10.1 Use the slider to control the simulated robotic arm (optional)
 
 > Note: Make sure the robotic arm is connected before starting
-
-<span style="background-color: yellow;">**Note:** If any errors occur during use, you can refer to this [link](https://github.com/smalleha/mycobot_ros2_agx.git) to update the code.</span>
 
 Start the slider control node. Open a new terminal, and enter the command in the terminal:
 
@@ -1495,7 +1508,7 @@ Start the slider control node. Open a new terminal, and enter the command in the
 ros2 launch mycobot_280 slider_control.launch.py port:=/dev/ttyACM0 baud:=115200
 ```
 
-![](./LIMO_image/slider.png)
+![](./LIMO_image_EN/slider.png)
 
 Control the movement of the robotic arm by dragging the slider.
 
@@ -1508,10 +1521,15 @@ Start the model following node:
 ```
 ros2 launch mycobot_280 mycobot_follow.launch.py 
 ```
+If the above command fails, please run the following command to set the port name and baud rate:
+
+```
+ ros2 launch mycobot_280 mycobot_follow.launch.py port:=/dev/ttyACM0 baud:=115200
+```
 
 After successful startup, the robotic arm will be unlocked. At this time, the robotic arm can be moved by hand, and the model in rviz will also move accordingly.
 
-![](./LIMO_image/follow.png)
+![](./LIMO_image_EN/follow.png)
 
 ### 10.3 GUI control of robotic arm (optional)
 
@@ -1523,9 +1541,14 @@ Use a simple GUI interface to control the movement of the robotic arm. Start a n
 ros2 launch mycobot_280 simple_gui.launch.py
 ```
 
+If the above command fails, please run the following command to set the port name and baud rate:
+
+```
+ros2 launch mycobot_280 simple_gui.launch.py port:=/dev/ttyACM0 baud:=115200
+```
 After successful launching, the angle information or position information of each joint can be entered in the GUI interface.
 
-![](./LIMO_image/gui.png)
+![](./LIMO_image_EN/gui.png)
 
 ## Appendix
 
