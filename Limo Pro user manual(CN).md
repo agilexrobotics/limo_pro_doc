@@ -1507,6 +1507,18 @@ rostopic echo /detect_word_reslut
 > 注：在运行命令之前，请确保其他终端中的程序已经终止，终止命令为：Ctrl+c
 >
 
+启动相机，在终端中输入命令：
+
+```
+roslaunch astra_camera dabai_u3.launch 
+```
+
+如果启动失败，尝试启动以下命令：
+
+```
+ roslaunch astra_camera dabai_dc1.launch 
+```
+
 启动颜色识别功能，在终端中输入命令：
 
 ```
@@ -1628,6 +1640,12 @@ roslaunch limo_deeplearning traffic_detect.launch
 
 ```
 roslaunch astra_camera dabai_u3.launch 
+```
+
+如果启动失败，尝试启动以下命令：
+
+```
+ roslaunch astra_camera dabai_dc1.launch 
 ```
 
 启动ultralytics_ros识别节点
