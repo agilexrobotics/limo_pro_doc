@@ -244,9 +244,7 @@ MyCobot can be re-developed according to the needs of users to achieve personali
 
 ⑦　Four-wheel differential/Ackermann mode switching latch;
 
-⑧　Power display;
-
-⑨　Left speaker;
+⑧　Power display (speaker integrated);
 
 ⑩　Left seagull door；
 
@@ -259,8 +257,6 @@ MyCobot can be re-developed according to the needs of users to achieve personali
 ⑬　Switch；
 
 ⑭　Right seagull door；
-
-⑮　Right speaker；
 
  <img src="LIMO_image/展开1-编号.svg" style="zoom:60%;" />
 
